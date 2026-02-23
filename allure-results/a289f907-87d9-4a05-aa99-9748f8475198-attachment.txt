@@ -1,0 +1,4 @@
+Error checking my account page visibility Error: locator.waitFor: Unexpected token "" while parsing css selector "h2:has-text('My Account". Did you mean to CSS.escape it?
+Call log:
+  - waiting for h2:has-text('My Account to be visible
+

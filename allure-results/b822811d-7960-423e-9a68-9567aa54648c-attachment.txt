@@ -1,0 +1,4 @@
+Error checking my account page visibility TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('h2:has-text(\'My Account\')') to be visible
+

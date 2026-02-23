@@ -1,0 +1,61 @@
+Error has happened while clicking my account link locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('span:has-text("My Account")')
+    - locator resolved to <span class="hidden-xs hidden-sm hidden-md">My Account</span>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+    at homepage.clickMyAccount (/Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/pages/HomePage.ts:44:33)
+    at performRegistration (/Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/tests/EndToEndTest.spec.ts:31:18)
+    at /Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/tests/EndToEndTest.spec.ts:133:20 {
+  [Symbol(step)]: {
+    location: {
+      file: '/Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/pages/HomePage.ts',
+      line: 44,
+      column: 33,
+      function: 'homepage.clickMyAccount'
+    },
+    category: 'pw:api',
+    title: `Click locator('span:has-text("My Account")')`,
+    apiName: 'locator.click',
+    params: {
+      selector: 'span:has-text("My Account")',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@35',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35',
+      _title: `Click locator('span:has-text("My Account")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771787614299,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('span:has-text("My Account")')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <span class="hidden-xs hidden-sm hidden-md">My Account</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('span:has-text("My Account")')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <span class="hidden-xs hidden-sm hidden-md">My Account</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\n' +
+        '    at homepage.clickMyAccount (/Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/pages/HomePage.ts:44:33)\n' +
+        '    at performRegistration (/Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/tests/EndToEndTest.spec.ts:31:18)\n' +
+        '    at /Users/amriteshkumar/Desktop/Puja-QA/Playwright-tp/OpencartAutomation/tests/EndToEndTest.spec.ts:133:20',
+      cause: undefined
+    }
+  }
+}

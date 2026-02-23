@@ -1,0 +1,21 @@
+[
+{
+"testName":"Valid login1",
+"email":"pavanol@abc.com",
+"password":"test@123",
+"expected":"success"
+} , 
+{
+"testName":"Valid login2",
+"email":"soni@lal.com",
+"password":"test1234",
+"expected":"success"
+} ,
+{
+"testName":"Invalid login",
+"email":"adfc@abc.com",
+"password":"ghdf@123",
+"expected":"failure"
+} 
+]
+
