@@ -1,7 +1,7 @@
 export class TestConfig{
  
-    appUrl="http://localhost:8888/index.php?route=common/home"
-    //appUrl="https://naveenautomationlabs.com/opencart"
+    //appUrl="http://localhost:8888/index.php?route=common/home"
+    appUrl="https://naveenautomationlabs.com/opencart"
     //appUrl="https://tutorialsninja.com/demo/"
     
   
