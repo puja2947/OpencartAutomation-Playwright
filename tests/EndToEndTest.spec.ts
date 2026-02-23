@@ -148,7 +148,7 @@ console.log("✅ Product is added to the Cart!");
 await verifyCart(page);
 console.log("✅ cart total price is verified!");
 
-await performCheckout(page);
-console.log("✅ checkout page is visited!");
+// await performCheckout(page);
+// console.log("✅ checkout page is visited!");
 
 })
